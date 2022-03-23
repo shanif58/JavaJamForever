@@ -33,6 +33,7 @@ header a:visited{color: #231814;}
 header a:hover {color: #FEF6C2;}
 h1{font-size:3em;}
 h2{color: #8c3826;}
+h3,dt {color: #8c3826;}
 h4{
 background-color: #D2B48C;
 font-size:1.2em;
@@ -51,7 +52,65 @@ padding-top:5px;
 padding-bottom:5px;
 width:200px;
 }
-	
+nav a {text-decoration:none;}
+nav a:link    {color: #FEF6C2;}
+nav a:visted  {color: #D2B48C;}
+nav a:hover   {color: #CC9933;}
+nav ul {
+list-style-type:none;
+padding-left:0;}
+main{
+background-color:FEF6C2;
+display: block;
+margin-left: 200px;
+overflow:auto;
+padding: 0 0 2em 0;
+}
+h2,h3,h4,p,div,ul,dl {padding-left:3em:padding-right:2em;}
+.details{
+padding-left:20%;
+padding-right:20%;
+overflow:auto;
+}
+.float-left {
+float:left;
+padding-right:2em;
+padding-bottom:2em;
+}
+.onethird{
+float:left;
+width:33%;
+}
+img{
+padding-left: 10px;
+padding-right:10px;}
+#homehero{
+height:300px;
+background-image:url(hero.jpg);
+background-repeat:no-repeat;
+background-size:100% 100%;
+}
+#heromugs{
+height:300px;
+background-image:url(heromugs.jpg);
+background-repeat:no-repeat;
+background-size:100% 100%;
+}
+#heroguitar{
+height:300px;
+background-image:url(heroguitar.jpg);
+background-repeat:no-repeat;
+background-size:100% 100%;
+}
+
+footer{
+background-color:#D2B48C;
+font-size:.60em;
+font-style:italic;
+text-align:center;
+padding-bottom:1em;
+border-top:2px soild #8C3826;
+}
 body { background-color: #FCEBB6;
        color: #221811;
 	   font-family: Tahoma, Arial, sans-serif; 
